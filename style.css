@@ -1,0 +1,45 @@
+@charset  "utf-8";
+
+h2 {
+    color: #1be944;
+   
+}
+
+.content{
+    width: 960px;
+    margin:0 auto;
+}
+.notes {
+
+    background-color: #7387f8;
+    color: #000;}
+    
+    footer 
+{
+    margin-top: 100px;
+    border-top: 1px solid gray;
+    text-align: center;
+    font-weight: bold;
+}
+/*6*/
+span{
+ color: rgb(243, 44, 44);
+ font-weight: bold;
+}
+
+
+
+/*07*/
+#png {
+    background-color: #515353;
+}
+#jpg img 
+{
+    width: 50%; /*juihuh*/
+    
+}
+
+table
+{
+    margin-bottom: 24px;
+}
