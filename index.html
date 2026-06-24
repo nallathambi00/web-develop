@@ -1,118 +1,93 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="utf-8">
-    <title>ある日の食卓・Ravi</title>
-    <meta name="description" content="Raviがつづる季節の料理と台所のひと皿。">
-    <link rel ="stylesheet" href="../data/css/style.css">
-    <link rel="stylesheet" href="C:\Users\nalla\OneDrive\Desktop\WF15_03_HTML・CSS\style11.css">
-</head>
-
-<body>
-    <div class="wrapper">
-
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="カフェ,ブランジェリー,恵比寿ガーデンプレイス">
+        <meta name="description" content="恵比寿ガーデンプレイスにある『café5963』のオフィシャルサイトです。">
+        <title>café5963</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
         <header>
-            <h1>ある日の食卓・Ravi</h1>
+            <h1>café5963　ブランジェリー・カフェ</h1>
             <div class="mainvisual">
-                <img src="./images/2_cropped.jpg" alt="メインビジュアル">
+                <img src="images/img-mainvisual.jpg" alt="café5963">
             </div>
+            <nav class="nav_main">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="access.html">ACCESS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
         </header>
 
-        <div class="contents">
-
-            <main>
-
-                <!-- Fried Rice -->
-                <article>
-                    <h2>香ばしい卵チャーハン</h2>
-                    <div class="item-img">
-                        <img src="images/1.jpg" alt="チャーハン">
+        <main>
+            <section class="intro">
+                <section class="items"><!--Flexコンテナー-->
+                    <div class="item_img"><!--Flexアイテム：画像-->
+                        <img src="images/img-chateau.jpg" alt="café5963の外観">
                     </div>
-                    <p>
-                        シンプルながら奥深い味わいの卵チャーハン。ふんわり卵と香ばしいご飯が絶妙に絡み合い、
-                        一口食べるごとに優しい旨味が広がります。どんな料理にも合う、飽きのこない一皿です。
-                    </p>
-                </article>
-
-                <!-- Chinese Shared Dishes -->
-                <article>
-                    <h2>みんなで囲む中華料理</h2>
-                    <div class="item-img">
-                        <img src="images/2.jpg" alt="中華料理">
+                    <div class="item_text"><!--Flexアイテム：文字-->
+                        <h2>café5963</h2>
+                        <p>café5963は恵比寿ガーデンプレイス内にあるカフェです。</p>
+                        <p>2003年パリに開店した同名のカジュアルフレンチレストランの日本第1号店です。</p>
                     </div>
-                    <p>
-                        辛味の効いた肉料理、香ばしい揚げ物、野菜炒め、麺料理など、テーブルいっぱいに並ぶ中華のごちそう。
-                        みんなでシェアしながら食べると、どの料理もさらに美味しく感じられます。
-                    </p>
-                </article>
-
-                <!-- Besan Chilla -->
-                <article>
-                    <h2>野菜たっぷりベサンチラ</h2>
-                    <div class="item-img">
-                        <img src="images/4.jpg" alt="ベサンチラ">
-                    </div>
-                    <p>
-                        ひよこ豆の粉で作るインドの家庭料理「ベサンチラ」。玉ねぎやにんじん、香草がたっぷり入り、
-                        外はカリッと中はふんわり。ココナッツチャツネとの相性も抜群です。
-                    </p>
-                </article>
-
-                <!-- Sushi Plates -->
-                <article>
-                    <h2>スシローで満腹！皿タワー</h2>
-                    <div class="item-img">
-                        <img src="images/5.jpg" alt="スシローの皿">
-                    </div>
-                    <p>
-                        気づけばこんなに積み上がったスシローの皿。好きなネタを好きなだけ楽しめる回転寿司ならではの満足感。
-                        食べ終わった皿の高さが、その日の幸せを物語っています。
-                    </p>
-                </article>
-
-                <!-- Ramen Set -->
-                <article>
-                    <h2>ラーメンとチャーハンの最強セット</h2>
-                    <div class="item-img">
-                        <img src="images/6.jpg" alt="ラーメンセット">
-                    </div>
-                    <p>
-                        あっさりスープのラーメンに、香ばしいチャーハン、そして漬物がついた満足セット。
-                        シンプルながら心がほっとする、王道の組み合わせです。
-                    </p>
-                </article>
-
-            </main>
-
-            <aside>
-                <section>
-                    <h3>食へのこだわり</h3>
-                    <ul>
-                        <li>できたての温かさ</li>
-                        <li>素材の香り</li>
-                        <li>シンプルな味付け</li>
-                    </ul>
                 </section>
-
-                <section>
-                    <h3>最近ハマっている料理</h3>
-                    <ol>
-                        <li>チャーハン</li>
-                        <li>中華のシェア料理</li>
-                        <li>インドの家庭料理</li>
-                    </ol>
+                <section class="items">
+                    <div class="item_img">
+                        <img src="images/img-cafe.jpg" alt="淹れたてコーヒー">
+                    </div>
+                    <div class="item_text">
+                        <h2>café5963のコーヒー</h2>
+                        <p>コーヒー豆のおいしさはもちろん、栽培方法から出荷までのプロセスを確認し、高い品質基準に達した安心で安全な豆だけを輸入しています。</p>
+                    </div>
                 </section>
-            </aside>
+                <section class="items">
+                    <div class="item_img">
+                        <img src="images/img-pain.jpg" alt="焼きたてバゲット">
+                    </div>
+                    <div class="item_text">
+                        <h2>café5963のパン</h2>
+                        <p>独自に契約栽培したフランス産小麦を使用した、かめばかむほど味わいの深い5963のパン。バゲットやカンパーニュ、セイグル、フルート・アンシェンヌ、カンパーニュ・オ・フィグ・ノアなど。</p>
+                    </div>
+                </section>
+            </section>
 
-        </div>
+            <section class="news">
+                <h2>NEWS</h2>
+                <ul>
+                    <li>07/20　フレンチトースト夏バージョンはじめました。</li>
+                    <li>07/18　ティラミスとミルクとトマトのジェラートはじめました。</li>
+                    <li>07/16　土日限定、夏メニューのブランチはじめました！</li>
+                    <li>07/14　ランチメニューが新しくなりました。</li>
+                    <li>07/12　ベルギー産ムール貝入荷！ムール貝祭開催！</li>
+                </ul>
+            </section>
+        </main>
 
         <footer>
-            <small>
-                ある日の食卓・Ravi<br>
-                Copyright © 2026 Ravi
-            </small>
+            <div class="footer_wrapper">                
+                <nav class="nav_footer">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="access.html">ACCESS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>                
+                <div class="footer_info">
+                    <h3>café5963　ブランジェリー・カフェ</h3>
+                    <h4>営業時間</h4>
+                    <ul>
+                        <li>ブランジェリー：9:00～21:00</li>
+                        <li>カフェ：9:00～23:00</li>
+                        <li>年中無休</li>
+                    </ul>
+                    <small>&copy; 2026 caf&eacute;5963</small>
+                </div>
+            </div>
         </footer>
-
-    </div>
-</body>
+    </body>
 </html>
