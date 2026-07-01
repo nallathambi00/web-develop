@@ -67,6 +67,11 @@ main {
 }
 
 /* コンテンツエリア設定 */
+main h2 {
+  font-size: 42px;
+  font-weight: normal;
+}
+
 
 /* フッター */
 .footer_wrapper {
@@ -132,11 +137,95 @@ main {
 
 /****** メニューページ
 ******************************************************/
+.menu_nav {
+  display: flex;
+  justify-content: space-between;
+}
+.menu_img,.menu_nav_body {
+  width: 48%;
+}
+.menu_img img {
+  width: 100%;
+}
+.menu_nav_body {
+  align-self: flex-end;
+}
+.menu_nav_body ul {
+  padding: 0;
+  list-style: none;
+}
+.menu_nav_body ul li {
+  font-size: 20px;
+  line-height: 2.5;
+}
+
+.menu_item {
+  margin-bottom: 80px;
+  text-align: center;
+}
+.menu_item h3 {
+  font-size: 42px;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+.menu_item ul {
+  list-style: none;
+  padding: 0;
+}
+.menu_item ul li {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
 
 /****** アクセスページ
 ******************************************************/
+.map {
+  margin-bottom: 40px;
+}
+.access table {
+  width: 400px;
+}
+.access table th {
+  width: 80px;
+  text-align: left;
+}
 
 /****** コンタクトページ
 ******************************************************/
 
 /* お問い合わせフォーム */
+form ul {
+  width: 600px;
+  list-style: none;
+  padding: 0;
+}
+form ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+form label {
+  width: 20%;
+  font-size: 16px;
+}
+form input,form textarea {
+  width: 75%;
+  padding: 1em;
+  border: 1px solid #3f312b;
+  border-radius: 4px;
+  font-size: 16px;
+}
+form input:focus,
+form textarea:focus {
+  background-color: #d8ccc6;
+}
+form button {
+  width: 20%;
+  padding: 0.5em 0.5em 0.5em 0.75em;
+  border: none;
+  border-radius: 4px;
+  background-color: #3f312b;
+  color:#d8ccc6;
+  font-size: 16px;
+  letter-spacing: 0.5em;
+}
