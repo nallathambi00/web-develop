@@ -2,91 +2,76 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <meta name="keywords" content="カフェ,ブランジェリー,恵比寿ガーデンプレイス">
-        <meta name="description" content="恵比寿ガーデンプレイスにある『café5963』のオフィシャルサイトです。">
-        <title>café5963</title>
+        <meta name="keywords" content="THE BATMAN,ザ・バットマン,映画,ロードショー,オフィシャルサイト,ブルース・ウェイン,セリーナ・カイル,櫻井孝宏,ファイルーズあい">
+        <meta name="description" content="映画『THE BATMAN-ザ・バットマン』の公式サイトです。マスクに隠された「嘘」を暴け！大ヒット上映中！">
+        <title>映画『THE BATMAN-ザ・バットマン』公式サイト</title>
+        <!--<link rel="stylesheet" href="css/normalize.css">cssファイルでimport-->
+        <link rel="stylesheet" href="./WF15_06_映画情報サイト/css/reset-min.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
-            <h1>café5963　ブランジェリー・カフェ</h1>
-            <div class="mainvisual">
-                <img src="images/img-mainvisual.jpg" alt="café5963">
+            <div class="header-wrapper"><!--Flaxコンテナー-->
+                <div class="logo"><!--Flexアイテム：左配置-->
+                    <h1>
+                        <a href="./WF15_06_映画情報サイト/index.html">
+                            <img src="images/img-logo.png" alt="THE BATMAN-ザ・バットマン">
+                        </a>
+                    </h1>
+                </div>
+                <nav class="header-nav"><!--Flexアイテム：右配置-->
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="story.html">STORY</a></li>
+                        <li><a href="character.html">CHARACTER</a></li>
+                        <li><a href="voice-cast.html">VOICE CAST</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="nav_main">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="menu.html">MENU</a></li>
-                    <li><a href="access.html">ACCESS</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </nav>
         </header>
+        <div class="mainvisual">
+            <img src="images/mainvisual.jpg" alt="映画『THE BATMAN-ザ・バットマン』大ヒット上映中！">
+        </div>
 
         <main>
-            <section class="intro">
-                <section class="items"><!--Flexコンテナー-->
-                    <div class="item_img"><!--Flexアイテム：画像-->
-                        <img src="images/img-chateau.jpg" alt="café5963の外観">
-                    </div>
-                    <div class="item_text"><!--Flexアイテム：文字-->
-                        <h2>café5963</h2>
-                        <p>café5963は恵比寿ガーデンプレイス内にあるカフェです。</p>
-                        <p>2003年パリに開店した同名のカジュアルフレンチレストランの日本第1号店です。</p>
-                    </div>
+            <div class="intro">
+                <p>世界の《嘘》を暴け。本性を見抜け。優しくもミステリアスな青年ブルース。両親殺害の復讐を誓い、悪と敵対する存在“バットマン”になって2年が過ぎた。</p>
+                <p>ある日、権力者が標的になった連続殺人事件が発生。その犯人を名乗るのは、史上最狂の知能犯リドラー。彼は犯行の際、必ず“なぞなぞ”を残し、警察や世界一優秀な探偵のブルースを挑発する。最後のメッセージは「次の犠牲者はバットマン」。</p>
+                <p>彼はいったい何のために犯行を繰り返すのか？そして暴かれる、政府の陰謀とブルースにまつわる過去の悪事や父親の罪…。すべてを奪おうとするリドラーを前に、ついに彼の良心が狂気に変貌していく―。</p>
+            </div>
+            <div class="banner-area">
+                <section>
+                    <a href="story.html">
+                        <h2>STORY</h2>
+                        <img src="images/feature-story.jpg" alt="STORYイメージ">
+                    </a>
                 </section>
-                <section class="items">
-                    <div class="item_img">
-                        <img src="images/img-cafe.jpg" alt="淹れたてコーヒー">
-                    </div>
-                    <div class="item_text">
-                        <h2>café5963のコーヒー</h2>
-                        <p>コーヒー豆のおいしさはもちろん、栽培方法から出荷までのプロセスを確認し、高い品質基準に達した安心で安全な豆だけを輸入しています。</p>
-                    </div>
+                <section>
+                    <a href="character.html">
+                        <h2>CHARACTER</h2>
+                        <img src="images/feature-characters.jpg" alt="CHARACTERイメージ">
+                    </a>
                 </section>
-                <section class="items">
-                    <div class="item_img">
-                        <img src="images/img-pain.jpg" alt="焼きたてバゲット">
-                    </div>
-                    <div class="item_text">
-                        <h2>café5963のパン</h2>
-                        <p>独自に契約栽培したフランス産小麦を使用した、かめばかむほど味わいの深い5963のパン。バゲットやカンパーニュ、セイグル、フルート・アンシェンヌ、カンパーニュ・オ・フィグ・ノアなど。</p>
-                    </div>
+                <section>
+                    <a href="voice-cast.html">
+                        <h2>VOICE CAST</h2>
+                        <img src="images/feature-voicecast.jpg" alt="VOICE CASTイメージ">
+                    </a>
                 </section>
-            </section>
-
-            <section class="news">
-                <h2>NEWS</h2>
-                <ul>
-                    <li>07/20　フレンチトースト夏バージョンはじめました。</li>
-                    <li>07/18　ティラミスとミルクとトマトのジェラートはじめました。<a href="menu.html#menu04">→デザートを見る</a></li>
-                    <li>07/16　土日限定、夏メニューのブランチはじめました！</li>
-                    <li>07/14　ランチメニューが新しくなりました。</li>
-                    <li>07/12　ベルギー産ムール貝入荷！ムール貝祭開催！</li>
-                </ul>
-            </section>
+            </div>
         </main>
 
         <footer>
-            <div class="footer_wrapper">                
-                <nav class="nav_footer">
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="menu.html">MENU</a></li>
-                        <li><a href="access.html">ACCESS</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
-                    </ul>
-                </nav>                
-                <div class="footer_info">
-                    <h3>café5963　ブランジェリー・カフェ</h3>
-                    <h4>営業時間</h4>
-                    <ul>
-                        <li>ブランジェリー：9:00～21:00</li>
-                        <li>カフェ：9:00～23:00</li>
-                        <li>年中無休</li>
-                    </ul>
-                    <small>&copy; 2026 caf&eacute;5963</small>
-                </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="story.html">STORY</a></li>
+                    <li><a href="character.html">CHARACTER</a></li>
+                    <li><a href="voice-cast.html">VOICE CAST</a></li>
+                </ul>
+            </nav>
+            <div class="copyright">
+                <small>Copyright 2026 THE BATMAN</small>
             </div>
         </footer>
     </body>
